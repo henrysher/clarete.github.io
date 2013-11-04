@@ -7,5 +7,74 @@ title: "About"
 <section class="content">
   <h1>{{ site.name }}</h1>
 
-  <p>This would be an excellent time to update this page and talk about yourself a bit.</p>
+  <p>
+      Passionate programmer that loves to have fun hacking random
+      stuff on computers and hanging upside down on trees or doing
+      acrobatics.
+  </p>
+
+  <img src="/images/about.jpg" class="aboutimage" alt="Flying on Lyra">
+
+  <h2>What I do</h2>
+  <p>
+      I'm a software architect. I love to design and build software.
+  </p>
+  <p>
+      Usually, I code in <a href="http://www.python.org">Python</a>,
+      but I don't mind spending hours hacking on C, Ruby, Lisp (usually
+      emacs lisp) or any other programming language.
+  </p>
+  <p>
+      Those are the project I'm most interested these days:
+  </p>
+  <ul>
+      <li>
+          <strong><a
+              href="http://clarete.github.io/curdling"
+              target="_blank">curdling</a></strong>:
+          Ultra fast package manager for Python
+      </li>
+      <li>
+          <strong><a
+              href="http://github.com/clarete/hackernews.el"
+              target="_blank">hackernews.el</a></strong>:
+          Hacker News Client For Emacs
+      </li>
+      <li>
+          <strong><a
+              href="http://github.com/clarete/s3sync"
+              target="_blank">s3sync</a></strong>:
+          Amazon S3 Sync Tool
+      </li>
+      <li>
+          <strong><a
+              href="http://clarete.github.io/forbiddenfruit"
+              target="_blank">Forbidden Fruit</a></strong>:
+          Patch Python built-ins
+      </li>
+  </ul>
+
+  <p>
+      Checkout the <a href="http://github.com/clarete" target="_blank">
+      complete list of projects</a> I'm currently working on.
+  </p>
+
+  <h2>Places I've been and things I've seen</h2>
+  <div class="images">
+    <div id="things-ive-seen" class="image-carousel"></div>
+
+    <script src="http://files.gethifi.com/posts/jflickrfeed/jflickrfeed.min.js"></script>
+    <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+    <script>
+     $('#things-ive-seen').jflickrfeed({
+         limit: 15,
+         qstrings: {
+             id: '107576674@N04'
+         },
+         itemTemplate: '{% raw %}<a href="{{image}}"><img src="{{image_s}}" alt="{{title}}"></a>{% endraw %}'
+     }, function (data) {
+         $('#things-ive-seen a').colorbox();
+     });
+    </script>
+  </div>
 </section>

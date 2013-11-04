@@ -4,9 +4,9 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
-name: Zach Holman
-url: http://zachholman.com
+name: Lincoln Clarete
+url: http://clarete.li
 description: A fantastic blog that is fantastic.
-twitter: holman
-github: holman
-gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c
+twitter: lincolnclarete
+github: clarete
+gravatar_url: http://www.gravatar.com/avatar/da48f488ae92ee21bef65e83d77d8544.png
