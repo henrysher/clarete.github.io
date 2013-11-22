@@ -73,11 +73,12 @@ a {
     .sidebar .meta a:hover {
       color: #227ce8; }
   .sidebar .meta {
-    text-align: center;
+      text-align: center;
+      overflow: hidden;
   }
   .sidebar .meta .icon {
     font-size: 24px;
-    margin-right: 11px;
+    margin-right: 10px;
   }
   .sidebar .sections {
     margin: 15px 0 0 0; }
